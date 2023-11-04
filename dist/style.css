@@ -19,10 +19,14 @@
 }
 
 .main {
-  background-color: rgba(122,122,122,0.8);
+  background-color: rgba(79, 79, 79, 0.7);
   height: 100%;
   max-height: calc(100% - 188px);
-  overflow: scroll;
+
+}
+
+.main p{
+  color: white;
 }
 
 
@@ -56,6 +60,18 @@ li {
   }
 
 
+/*main*/
+
+.menu-item {
+  max-width: 600px;
+  margin-bottom: 40px;
+  margin-left: calc(50vw - 300px);
+  background-color: rgba(122,122,122,0.8);
+}
+
+.menu-hr {
+  border: 1px solid #c59d5f;
+}
 /* footer */
 
 .footer {
