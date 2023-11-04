@@ -1,3 +1,31 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  sans-serif;
+  text-align: center;
+}
+
+
+#content {
+  width: 100vw;
+  height: 100vh;
+  background: url("img/restaurant-front.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  background-color: rgba(122,122,122,0.8);
+  height: 100%;
+  max-height: calc(100% - 188px);
+  overflow: scroll;
+}
+
+
 ul {
     width: 100%;
     display: flex;
@@ -8,7 +36,36 @@ ul {
 
   
 li {
-    margin: 0 20px;
-    color: black;
+    margin: 20px 20px;
+    color: white;
     text-transform: uppercase;
   }
+
+  li:hover {
+    border-bottom: 2px solid #c59d5f;
+    padding-bottom: 4px;
+    cursor: pointer;
+  }
+
+  
+/* menu */
+  nav {
+    display: flex;
+    height: 94px;
+    border-bottom: 2px solid #c59d5f;
+  }
+
+
+/* footer */
+
+.footer {
+  height: 94px;
+  border-top: 2px solid #c59d5f;
+  display: flex;
+  
+}
+.footer p {
+  margin: auto;
+  margin-bottom: 10px;
+  color: white;
+}
