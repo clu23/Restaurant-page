@@ -1,4 +1,6 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:wght@300;400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -25,9 +27,7 @@
 
 }
 
-.main p{
-  color: white;
-}
+
 
 
 ul {
@@ -72,6 +72,52 @@ li {
 .menu-hr {
   border: 1px solid #c59d5f;
 }
+
+h1 {
+  font-size: 64px;
+  color: white;
+  font-weight: bold;
+  margin-top: -40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+hr {
+  width: 280px;
+  border: 2px solid #c59d5f;
+  margin: 24px auto;
+}
+
+
+.text-center {
+  text-align: center;
+  color: white;
+}
+
+.cursive{
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-size: 96px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #c59d5f;
+}
+
+
+button{
+  background-color: #c59d5f;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 16px;
+  border: none;
+  margin: 0 auto;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+button:hover{
+  color: black;
+}
+
 /* footer */
 
 .footer {
@@ -86,3 +132,5 @@ li {
   margin: auto;
   color: white;
 }
+
+
