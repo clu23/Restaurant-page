@@ -1,4 +1,5 @@
 import { renderNav } from "./navbar";
+import { renderFooter } from "./footer";
 
 const $content=document.getElementById("content");
 
