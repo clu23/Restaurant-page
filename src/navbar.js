@@ -4,7 +4,7 @@ function render(){
     const navItems=["home", "menu", "about", "contact"];
     const $ul=document.createElement("ul");
 
-    navItems.forEach((item) => createHtmlElement("li", null, null, item)
+    navItems.forEach((item) => $ul.appendChild(createHtmlElement("li", null, null, item))
     );
 
     const $nav=document.createElement("nav");

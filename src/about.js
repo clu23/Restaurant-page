@@ -3,7 +3,7 @@ import { $content, createHtmlElement } from "./index";
 
 function render(){
     const $main = document.createElement("main");
-    $main.classList.add("main");
+    $main.classList.add("main-menu");
 
     const $welcome = createHtmlElement(
         "p",

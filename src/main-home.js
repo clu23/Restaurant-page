@@ -29,6 +29,8 @@ function render(){
     $main.appendChild($subtitle);
     $main.appendChild($button);
 
+    $main.classList.add("main");
+
     $content.appendChild($main);
 }
 

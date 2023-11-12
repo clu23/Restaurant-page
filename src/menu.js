@@ -23,7 +23,7 @@ const menu = [
 
 function render(){
     const $main = document.createElement("main");
-    $main.classList.add("main");
+    $main.classList.add("main-menu");
 
     const $welcome = createHtmlElement(
         "p",
@@ -32,7 +32,7 @@ function render(){
         "Welcome to"
       );
 
-    const $title = createHtmlElement("h1", null, ["white"], "Menu");
+    const $title = createHtmlElement("h1", null, ["black"], "Menu");
     
     const $hr = document.createElement("hr");
 

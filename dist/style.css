@@ -1,6 +1,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:wght@300;400;700&display=swap");
 
+/* General */
+
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +22,14 @@
   justify-content: space-between;
 }
 
+/* Nav */
 
+
+nav {
+  display: flex;
+  height: 94px;
+  border-bottom: 2px solid #c59d5f;
+}
 
 
 ul {
@@ -42,14 +51,6 @@ li {
     border-bottom: 2px solid #c59d5f;
     padding-bottom: 4px;
     cursor: pointer;
-  }
-
-  
-/* Nav */
-  .nav {
-    display: flex;
-    height: 94px;
-    border-bottom: 2px solid #c59d5f;
   }
 
 
@@ -107,22 +108,31 @@ button:hover{
 
 /* Menu */
 
+.main-menu {
+  background: #f2f2f2;
+  height: 100%;
+  max-height: calc(100% - 188px);
+  overflow: scroll;
+}
 
 .menu-item {
   max-width: 600px;
   margin-bottom: 40px;
   margin-left: calc(50vw - 300px);
-  background-color: rgba(122,122,122,0.8);
+  background-color: #f2f2f2;
 }
 
 .menu-hr {
   border: 1px solid #c59d5f;
 }
 
+/* About */
+
+/* Contact */
 
 /* footer */
 
-.footer {
+footer {
   height: 94px;
   border-top: 2px solid #c59d5f;
   display: flex;
@@ -130,11 +140,14 @@ button:hover{
   justify-content: center;
   
 }
-.footer p {
+
+footer p {
   margin: auto;
   color: white;
 }
 
+
+/* Typography */
 
 .golden {
   color: #c59d5f;
@@ -146,4 +159,8 @@ button:hover{
 
 .white{
   color: white;
+}
+
+.black{
+  color: black;
 }
