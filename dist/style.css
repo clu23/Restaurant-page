@@ -147,6 +147,15 @@ button:hover{
 }
 /* Contact */
 
+.contact-title{
+  font-size: 46px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
 /* footer */
 
 footer {

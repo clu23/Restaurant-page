@@ -4,7 +4,7 @@ function render(){
     const $main = document.createElement("main");
     $main.classList.add("main-menu");
 
-    const $title = createHtmlElement("h1", null, ["gray"], "Meat House");
+    const $title = createHtmlElement("p", null, ["gray","contact-title"], "Contact");
 
     const $hr = document.createElement("hr");
 
