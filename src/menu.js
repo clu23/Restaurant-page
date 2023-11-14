@@ -25,18 +25,12 @@ function render(){
     const $main = document.createElement("main");
     $main.classList.add("main-menu");
 
-    const $welcome = createHtmlElement(
-        "p",
-        null,
-        ["cursive"],
-        "Welcome to"
-      );
+    
 
-    const $title = createHtmlElement("h1", null, ["black"], "Menu");
+    const $title = createHtmlElement("p", null, ["black","menu-title"], "Menu");
     
     const $hr = document.createElement("hr");
 
-    $main.appendChild($welcome);
     $main.appendChild($title);
     $main.appendChild($hr);
 

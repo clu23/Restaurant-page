@@ -5,13 +5,7 @@ function render(){
     const $main = document.createElement("main");
     $main.classList.add("main-menu");
 
-    const $welcome = createHtmlElement(
-        "p",
-        null,
-        ["cursive"],
-        "Welcome to"
-      );
-    const $title = createHtmlElement("h1", null, ["gray"], "Meat House");
+    const $title = createHtmlElement("p", null, ["gray","about-title"], "About us");
     
     const $hr = document.createElement("hr");
 
@@ -19,7 +13,6 @@ function render(){
     "We are a modern restaurant dedicated to meat in all its forms. Our desire is to let our customers discover all the different ways meat can be prepared and serve with various sauces and accompaniment";
     const $p = createHtmlElement("p", null, ["menu-item"], content);
 
-    $main.appendChild($welcome);
     $main.appendChild($title);
     $main.appendChild($hr);
     $main.appendChild($p);
